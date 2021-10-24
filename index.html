@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sustainability Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <!--font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <style>
+            .container1 {
+            	margin: 1px;
+	            padding: 1px;
+	            font-family: 'Amatic SC', cursive;
+	            scroll-behavior: smooth;
+                background-image: url(https://images.pexels.com/photos/5550910/pexels-photo-5550910.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+                background-repeat: no-repeat;
+	            background-attachment: fixed;
+                background-position: center; 
+                background-color: black;
+
+            }
+
+            h1 {
+                padding-top: 100px;
+                font-size: 85px;
+                text-align: center;
+                color: #250001;
+                }
+
+            .button {
+                text-align: center;
+                background-color: #FCBA04; 
+                border-style: dotted black;
+                border-radius: 8px;
+                color: black;
+                padding: 22px;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 36px;
+                margin: 4px 2px;
+                cursor: pointer;
+                }
+                
+            .text-center {
+                padding-top: 270px;
+                text-align: center;
+            }
+
+        </style>
+        <div class = "container1">
+            <div class = "text-align: center">
+                <h1><strong>LET'S LEARN ABOUT SUSTAINABILITY!</strong></h1>
+            </div>
+            
+            <div class = "text-center">
+                    <button id="myButton" class = "button">PLAY</button>
+                    <script type="text/javascript">
+                        document.getElementById("myButton").onclick = function () {
+                        location.href = "beach.html";
+                        };
+                    </script>
+            </div>
+        </div>
+
+    </body>
+        
+        <script src="javascript.js" async defer></script>
+    </body>
+</html>
